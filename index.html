@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- if IEmeta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')-->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <title><?=SEO_TITLE?></title>
+    <meta name="keywords" content="<?=SEO_KEYWORDS?>">
+    <meta name="description" content="<?=SEO_DESCRIPTION?>">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <!--JS MAIN -->
+    <script src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+    <!-- CSS MAIN-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/features/style.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/slick/slick.css">
+    <link rel="stylesheet" href="./css/slick/slick-theme.css">
+  </head>
+  <body class="homepage navstate_show">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header_top">
+        <div class="container flexbox">
+          <div class="header_top_logo"><a href="./"><img alt="SAJ株式会社ステージアジャパン" src="./common_img/logo.svg"><span>GYMBASE</span></a></div>
+          <div class="header_top_icon hastext_false">
+            <div class="icon icon-tel"><a class="icon_inside" href="tel:03-3263-0219">
+                <div class="icon-img"><img src="./common_img/icon_phone.svg"></div></a></div>
+            <div class="icon icon-mail"><a class="icon_inside" href="./contact/">
+                <div class="icon-img"><img src="./common_img/icon_contact.svg"></div></a></div>
+            <div class="icon icon-hamburger js-hamburger type2">
+              <div class="icon-bar"><span></span><span></span><span></span></div>
+            </div>
+            <!-- /Header Top -->
+            <div class="header_nav type2">
+              <nav class="container header_nav_inside header_nav_dropdown">
+                <ul class="nav-list js-navheader">
+                  <li class="nav-list-item"><a href="./">HOME</a></li>
+                  <li class="nav-list-item megamenu dropdown"><a href="javascript:void(0)">BLOG</a>
+                    <ul class="js-dropdown childmenu">
+                      <li class="nav-list-item"><a href="./">BLOG</a></li>
+                      <li class="nav-list-item"><a href="./">SINGLE POST</a></li>
+                      <li class="nav-list-item"><a href="./">ARCHIVES 2021</a></li>
+                      <li class="nav-list-item"><a href="./">ARCHIVES 2020</a></li>
+                      <li class="nav-list-item"><a href="./">SEARCH TEMPLATE</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-list-item megamenu dropdown"><a href="javascript:void(0)">PAGES</a>
+                    <ul class="js-dropdown childmenu">
+                      <li class="nav-list-item"><a href="./">ABOUT US</a></li>
+                      <li class="nav-list-item"><a href="./">TEAM</a></li>
+                      <li class="nav-list-item"><a href="./">SINGLE TEAM</a></li>
+                      <li class="nav-list-item"><a href="./">OUR CLASSES</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-list-item megamenu dropdown"><a href="javascript:void(0)">CLASSES</a>
+                    <ul class="js-dropdown childmenu">
+                      <li class="nav-list-item"><a href="./">ACTIVE ADULTS</a></li>
+                      <li class="nav-list-item"><a href="./">ACTIVE KIDS</a></li>
+                      <li class="nav-list-item"><a href="./">BODY ATTACK</a></li>
+                      <li class="nav-list-item"><a href="./">CARDIO FITNESS</a></li>
+                      <li class="nav-list-item"><a href="./">CYCLE TRAINING</a></li>
+                      <li class="nav-list-item"><a href="./">YOGA PILATES</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-list-item megamenu dropdown"><a href="javascript:void(0)">TIMETABLE</a>
+                    <ul class="js-dropdown childmenu">
+                      <li class="nav-list-item"><a href="./">ALL CLASSES</a></li>
+                      <li class="nav-list-item"><a href="./">ACTIVE ADULTS</a></li>
+                      <li class="nav-list-item"><a href="./">ACTIVE KIDS</a></li>
+                      <li class="nav-list-item"><a href="./">YOGA PILATES</a></li>
+                      <li class="nav-list-item"><a href="./">CARDIO FITNESS</a></li>
+                      <li class="nav-list-item"><a href="./">BODY ATTACK</a></li>
+                      <li class="nav-list-item"><a href="./">CYCLE TRAINING</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-list-item megamenu dropdown"><a href="javascript:void(0)">GALLERY</a>
+                    <ul class="js-dropdown childmenu">
+                      <li class="nav-list-item"><a href="./">ALL CLASSES</a></li>
+                      <li class="nav-list-item"><a href="./">ACTIVE ADULTS</a></li>
+                      <li class="nav-list-item"><a href="./">ACTIVE KIDS</a></li>
+                      <li class="nav-list-item"><a href="./">BODY ATTACK</a></li>
+                      <li class="nav-list-item"><a href="./">CARDIO FITNESS</a></li>
+                      <li class="nav-list-item"><a href="./">CYCLE TRAINING</a></li>
+                      <li class="nav-list-item"><a href="./">YOGA PILATES</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-list-item megamenu dropdown"><a href="javascript:void(0)">SHOP</a>
+                    <ul class="js-dropdown childmenu">
+                      <li class="nav-list-item"><a href="./">PRODUCTS</a></li>
+                      <li class="nav-list-item"><a href="./">CART</a></li>
+                      <li class="nav-list-item"><a href="./">MY ACCOUNT</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-list-item"><a href="./">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+            <!-- /Global Nav-->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /END HEADER -->
+    <!-- MAIN BODY -->
+    <section class="main_body p-top">
+          <div class="owl-carousel carousel-slider owl-theme">
+            <div class="item-owl">
+              <div class="bgmv" style="background-image:url(./images/mv01.jpg)">
+                <div class="container">
+                  <h1><span>For people who creates fun & sport experience</span>Best selling gym<br>wordpress theme on<br>envato market</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item-owl">
+              <div class="bgmv" style="background-image:url(./images/mv02.jpg)">
+                <div class="container">
+                  <h1><span>For people who creates fun & sport experience</span>Best selling gym<br>wordpress theme on<br>envato market</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item-owl">
+              <div class="bgmv" style="background-image:url(./images/mv03.jpg)">
+                <div class="container">
+                  <h1><span>For people who creates fun & sport experience</span>Best selling gym<br>wordpress theme on<br>envato market</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+      <section class="section1">
+        <div class="container">
+          <div class="block3">
+            <div class="block3--ins">
+              <div class="home-box calendar">
+                <div class="flexbox">
+                  <div class="title">
+                    <h3>Upcoming Classes</h3>
+                    <h4>See what is next</h4>
+                  </div>
+                  <div class="btn-group">
+                    <div class="btn prev disable"></div>
+                    <div class="btn next"></div>
+                  </div>
+                </div>
+                <div class="list-hours">
+                  <dl>
+                    <dt>Monday</dt>
+                    <dd>09:00 pm - 10:00 pm</dd>
+                  </dl>
+                  <dl>
+                    <dt>Tuesday</dt>
+                    <dd>08:00 pm - 10:00 pm</dd>
+                  </dl>
+                  <dl>
+                    <dt>Wednesday</dt>
+                    <dd>08:00 pm - 10:00 pm</dd>
+                  </dl>
+                  <dl>
+                    <dt>Thursday</dt>
+                    <dd>08:00 pm - 10:00 pm</dd>
+                  </dl>
+                  <dl>
+                    <dt>Friday</dt>
+                    <dd>08:00 am - 12:00 pm</dd>
+                  </dl>
+                  <dl>
+                    <dt>Saturday</dt>
+                    <dd>08:00 am - 06:00 pm</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="block3--ins">
+              <div class="home-box">
+                <div class="flexbox">
+                  <div class="title">
+                    <h3>Achieve Your Goals</h3>
+                    <h4>Experience healthier life</h4>
+                  </div>
+                </div>
+                <div class="flexbox news clearfix">
+                  <figure><img src="./common_img/icon_002.png" alt=""></figure>
+                  <p class="text alternate">Ready to kick start your new healthy lifestyle? Contact us for a 20% off your introductory training session.</p>
+                </div><a class="gb-button more white" href="#" title="VIEW CLASS SCHEDULE">VIEW CLASS SCHEDULE</a>
+              </div>
+            </div>
+            <div class="block3--ins">
+              <div class="home-box">
+                <div class="flexbox">
+                  <div class="title">
+                    <h3>Train Day and Night</h3>
+                    <h4>Around-the-clock access</h4>
+                  </div>
+                </div>
+                <div class="flexbox news clearfix">
+                  <figure><img src="./common_img/icon_001.png" alt=""></figure>
+                  <p class="text alternate">Our members wanted more flexible opening hours, so we offer them 24/7 access since the last year.</p>
+                </div><a class="gb-button more white" href="#" title="FIND MY PERFECT PLAN">FIND MY PERFECT PLAN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="container">
+          <div class="flexbox ss2-block">
+            <figure><img src="./images/img_001.png" alt=""></figure>
+            <div class="text">
+              <h2 class="main-tit">About Us</h2>
+              <h3 class="sub-tit">From the moment you walk through the door you know Gymbase is a unique place</h3>
+              <p class="color-text">
+                When we created Gym Base, we knew we wanted to be more than just a simple gym. Having worked in traditional gyms in the past, we knew we needed to create a concept that would provide our members with the most effective tools for success. This meant we needed to offer a wide range of classes both for children and adults.<br><br>
+                This also meant we needed to provide a learning environment run by experienced and successful coaches. However, our most important goal was to create a welcoming atmosphere and community in which everyone feels a sense of belonging.
+              </p>
+              <div class="flexbox box-info">
+                <p><span class="color-text">ENVIRONMENT</span>Clean and Airy</p>
+                <p><span class="color-text">CLASSES</span>Every Level</p>
+                <p><span class="color-text">PRICES</span>Affordable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3">
+        <div class="container">
+          <figure class="dissp img-sp"><img src="./images/bg-sec3.jpg" alt="No long-term contract"></figure>
+          <div class="block2">
+            <div class="block2--ins">
+              <figure><img src="./common_img/icon1.png" alt="No long-term contract"></figure>
+              <h3 class="tit-line">No long-term contract</h3>
+              <p>Our popular month to month plan is offered as pay as you work-out with no longterm contract</p>
+            </div>
+            <div class="block2--ins">
+              <figure><img src="./common_img/icon2.png" alt="Excercise round the clock"></figure>
+              <h3 class="tit-line">Excercise round the clock</h3>
+              <p>Take advantage from gym’s benefits 24 hours a day, 7 days a week in each plans available</p>
+            </div>
+            <div class="block2--ins">
+              <figure><img src="./common_img/icon3.png" alt="Best equipment"></figure>
+              <h3 class="tit-line">Best equipment</h3>
+              <p>Practice on the best equipment global brands that addresses a wide range of people</p>
+            </div>
+            <div class="block2--ins">
+              <figure><img src="./common_img/icon4.png" alt="Dedicated gym app"></figure>
+              <h3 class="tit-line">Dedicated gym app</h3>
+              <p>App users can book space at your gym’s classes, with personal trainers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4">
+        <div class="container">
+          <h2 class="main-tit text_center main-tit1">Our Classes</h2>
+          <p class="text_center color-text">Whether you want to loose weight, tone up, gain muscle or improve strength, we provide a wide<br>range of classes to help you achieve your goals in a friendly and airy environment.</p>
+          <div class="slider"><a class="slider-c" href="#">
+              <figure><img src="./images/5.jpg" alt="Active Adults"></figure>
+              <div class="text">
+                <h3>Active Adults</h3>
+                <p>strength, speed, stamina</p>
+              </div></a><a class="slider-c" href="#">
+              <figure><img src="./images/6.jpg" alt="Active Adults"></figure>
+              <div class="text">
+                <h3>Active Adults</h3>
+                <p>strength, speed, stamina</p>
+              </div></a><a class="slider-c" href="#">
+              <figure><img src="./images/11.jpg" alt="Active Adults"></figure>
+              <div class="text">
+                <h3>Active Adults</h3>
+                <p>strength, speed, stamina</p>
+              </div></a><a class="slider-c" href="#">
+              <figure><img src="./images/12.jpg" alt="Active Adults"></figure>
+              <div class="text">
+                <h3>Active Adults</h3>
+                <p>strength, speed, stamina</p>
+              </div></a><a class="slider-c" href="#">
+              <figure><img src="./images/13.jpg" alt="Active Adults"></figure>
+              <div class="text">
+                <h3>Active Adults</h3>
+                <p>strength, speed, stamina</p>
+              </div></a></div>
+        </div>
+      </section>
+      <section class="section5">
+        <div class="container">
+          <figure class="dissp img-sp"><img src="./images/14.jpg" alt=""></figure>
+          <div class="right-box">
+            <h3 class="sub-tit">Explore Our Top Fat Burning Classes</h3>
+            <ul class="tabslist">
+              <li data-id="1">BODY ATTACK</li>
+              <li data-id="2">CARDIO FITNESS</li>
+              <li data-id="3">CYCLE TRAINING</li>
+            </ul>
+            <div class="js-tab-content" id="tab1">
+              <p>Body Attack is a high-energy fitness class with moves that cater for total beginners to total addicts. We combine athletic movements like running, lunging and jumping with strength exercises.</p>
+              <ul class="progress-bar">
+                <li>
+                  <h3>Strength</h3>
+                  <p class="bar value-75"></p>
+                  <p class="value">75%</p>
+                </li>
+                <li>
+                  <h3>Cardio</h3>
+                  <p class="bar value-30"></p>
+                  <p class="value">30%</p>
+                </li>
+                <li>
+                  <h3>Fat Burning</h3>
+                  <p class="bar value-70"></p>
+                  <p class="value">70%</p>
+                </li>
+              </ul>
+            </div>
+            <div class="js-tab-content" id="tab2">
+              <p>This full-body workout gets you more mobile and stronger both in body and cardio fitness. Cardio Fitness class is as much about getting fit as it is about meeting new people.</p>
+              <ul class="progress-bar">
+                <li>
+                  <h3>Strength</h3>
+                  <p class="bar value-55"></p>
+                  <p class="value">55%</p>
+                </li>
+                <li>
+                  <h3>Cardio</h3>
+                  <p class="bar value-90"></p>
+                  <p class="value">90%</p>
+                </li>
+                <li>
+                  <h3>Fat Burning</h3>
+                  <p class="bar value-50"></p>
+                  <p class="value">50%</p>
+                </li>
+              </ul>
+            </div>
+            <div class="js-tab-content" id="tab3">
+              <p>The class is lead by an instructor who leads participants through various exercises to a contemporary music soundtrack. The aim is to develop numerous domains of physical fitness.</p>
+              <ul class="progress-bar">
+                <li>
+                  <h3>Strength</h3>
+                  <p class="bar value-45"></p>
+                  <p class="value">45%</p>
+                </li>
+                <li>
+                  <h3>Cardio</h3>
+                  <p class="bar value-70"></p>
+                  <p class="value">70%</p>
+                </li>
+                <li>
+                  <h3>Fat Burning</h3>
+                  <p class="bar value-60"></p>
+                  <p class="value">60%</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section6">
+        <div class="container">
+          <h2 class="main-tit text_center main-tit1">Meet Our Team</h2>
+          <p class="text_center">We are a team of experienced people, nutrition, sports and fitness passionate experts with talent<br>and knowledge unsurpassed in the industry. Get to know us.</p>
+          <div class="flexbox block4"><a class="block4--ins slider-c" href="#">
+              <figure><img src="./images/7.jpg" alt="Amitee Loiselle"></figure>
+              <div class="text">
+                <h3>Amitee Loiselle</h3>
+                <p>Fitness Coach</p>
+              </div></a><a class="block4--ins slider-c" href="#">
+              <figure><img src="./images/8.jpg" alt="Amitee Loiselle"></figure>
+              <div class="text">
+                <h3>Amitee Loiselle</h3>
+                <p>Fitness Coach</p>
+              </div></a><a class="block4--ins slider-c" href="#">
+              <figure><img src="./images/9.jpg" alt="Amitee Loiselle"></figure>
+              <div class="text">
+                <h3>Amitee Loiselle</h3>
+                <p>Fitness Coach</p>
+              </div></a><a class="block4--ins slider-c" href="#">
+              <figure><img src="./images/10.jpg" alt="Amitee Loiselle"></figure>
+              <div class="text">
+                <h3>Amitee Loiselle</h3>
+                <p>Fitness Coach</p>
+              </div></a></div>
+          <p class="text_center"><a class="gb-button more white hvgreen" href="#" title="SEE THE WHOLE TEAM">SEE THE WHOLE TEAM</a></p>
+        </div>
+      </section>
+      <section class="section7">
+        <div class="container">
+          <div class="flexbox member-block">
+            <div class="member-block--ins">
+              <div class="box box-gray">
+                <p class="time">Day Pass</p>
+                <p class="price"><span>$</span>20</p>
+                <p class="unit">/ pass</p>
+                <ul class="list-style list-style1">
+                  <li> <i class="far fa-check-circle"></i>1 Day Pass</li>
+                  <li> <i class="far fa-check-circle"></i>Free Gym Access</li>
+                  <li> <i class="far fa-check-circle"></i>24 Hour Access</li>
+                </ul>
+                <p class="text_center"><a class="gb-button more btn-white" href="#" title="GET STARTED">GET STARTED</a></p>
+              </div>
+              <div class="box box-white">
+                <p class="time">Month to Month</p>
+                <p class="price"><span>$</span>90</p>
+                <p class="unit">/ month</p>
+                <ul class="list-style list-style1">
+                  <li> <i class="far fa-check-circle"></i>$99 Joining Fee</li>
+                  <li> <i class="far fa-check-circle"></i>No Contract</li>
+                  <li> <i class="far fa-check-circle"></i>Free Gym Access</li>
+                  <li> <i class="far fa-check-circle"></i>1 Group Class Included</li>
+                  <li> <i class="far fa-check-circle"></i>24 Hour Access</li>
+                </ul>
+                <p class="text_center"><a class="gb-button more btn-green" href="#" title="GET STARTED">GET STARTED</a></p>
+              </div>
+            </div>
+            <div class="member-block--ins">
+              <h2 class="main-tit">Membership</h2>
+              <h3 class="sub-tit">From Punch Pass to Monthly or Annual</h3>
+              <p class="color-text">At Gym Base, we offer a wide range of membership with options to suit every budget. Everything from One Day Pass, Punch Pass to monthly or annual prepaid memberships. What’s more, we won’t tie you in to a long term contract, giving you greater flexibility.</p>
+              <p class="tit">Each plan included</p>
+              <ul class="list-style list-style2">
+                <li>The best equipment global brands</li>
+                <li>The gym is open 24 hours a day, 7 days a week</li>
+                <li>Two safe payment methods</li>
+                <li>Group fitness classes in the price of the subscription</li>
+                <li>No long-term contract, period</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section8">
+        <div class="container">
+          <div class="flexbox ss8-block">
+            <div class="ss8-block--ins">
+              <h3 class="sub-tit">Body Mass index</h3>
+              <p>Body Mass Index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
+              <ul class="list-style list-style2">
+                <li>18-25 – Normal Weight</li>
+                <li>25-30 – Overweight</li>
+                <li>30-40 – Obesity</li>
+                <li>Above 40 – Morbid Obesity</li>
+              </ul>
+            </div>
+            <div class="ss8-block--ins">
+              <table class="table-style">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="text">Your Height (cm)</p>
+                      <div class="flexbox num-box">
+                        <div class="line">
+                          <div class="green-line"></div>
+                          <div class="circle"></div>
+                        </div>
+                        <p class="value">137</p>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="number">38.4kg</p>
+                      <p class="text text_center">Your Maximum Proper Weight</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="text">Your Weight (kg)</p>
+                      <div class="flexbox num-box">
+                        <div class="line">
+                          <div class="green-line"></div>
+                          <div class="circle"></div>
+                        </div>
+                        <p class="value">62</p>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="number">66.3</p>
+                      <p class="text text_center">Body Mass Index (BMI)</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section9">
+        <div class="container">
+          <h2 class="main-tit text_center main-tit1">Not Only a Gym</h2>
+          <p class="text_center">Gym Base is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.<br>Check what else we offer for our members.</p>
+          <table class="table-style table-style1">
+            <tbody>
+              <tr>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon7-w.png" data-src="icon7-w.png" data-hover="icon7.png" alt="Workout plans tailored to your needs"></figure>
+                    <p>Workout plans tailored to your needs</p></a></td>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon5-w.png" data-src="icon5-w.png" data-hover="icon5.png" alt="Access to the client's panel"></figure>
+                    <p>Access to the client's panel</p></a></td>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon10-w.png" data-src="icon10-w.png" data-hover="icon10.png" alt="Social media integration"></figure>
+                    <p>Social media integration</p></a></td>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon6-w.png" data-src="icon6-w.png" data-hover="icon6.png" alt="Social media integration"></figure>
+                    <p>Social media integration</p></a></td>
+              </tr>
+              <tr>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon11-w.png" data-src="icon11-w.png" data-hover="icon11.png" alt="Battle tournaments"></figure>
+                    <p>Battle tournaments</p></a></td>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon8-w.png" data-src="icon8-w.png" data-hover="icon8.png" alt="Individual trainings"></figure>
+                    <p>Individual trainings</p></a></td>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon12-w.png" data-src="icon12-w.png" data-hover="icon12.png" alt="Playing fields for team sports"></figure>
+                    <p>Playing fields for team sports</p></a></td>
+                <td><a class="image-container" href="#">
+                    <figure><img src="./common_img/icon9-w.png" data-src="icon9-w.png" data-hover="icon9.png" alt="Diverse member plans"></figure>
+                    <p>Diverse member plans</p></a></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text_center"><a class="gb-button more white" href="#" title="ABOUT US">ABOUT US</a></p>
+        </div>
+      </section>
+      <section class="section10">
+        <div class="container">
+          <div class="slider-pt">
+            <div class="slider-ptc">
+              <figure class="people"><img src="./images/pt1.jpg" alt="AMITEE LOISELLE"></figure>
+              <figure class="qq"><img src="./common_img/qq.png" alt="AMITEE LOISELLE"></figure>
+              <p class="text">GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts. Check what else we offer for our members. GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.</p>
+              <p class="name">AMITEE LOISELLE</p>
+            </div>
+            <div class="slider-ptc">
+              <figure class="people"><img src="./images/pt2.jpg" alt="mark anthony"></figure>
+              <figure class="qq"><img src="./common_img/qq.png" alt="AMITEE LOISELLE"></figure>
+              <p class="text">GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts. Check what else we offer for our members. GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.</p>
+              <p class="name">mark anthony</p>
+            </div>
+            <div class="slider-ptc">
+              <figure class="people"><img src="./images/pt3.jpg" alt="liam harpaul"></figure>
+              <figure class="qq"><img src="./common_img/qq.png" alt="AMITEE LOISELLE"></figure>
+              <p class="text">GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts. Check what else we offer for our members. GymBase is not just a gym, we have an indoor swimming pool, sauna zone, two indoor team courts.</p>
+              <p class="name">liam harpaul</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section11">
+        <div class="container">
+          <div class="flexbox block2">
+            <div class="block2--ins">
+              <p>Recommended Brands</p>
+            </div>
+            <div class="block2--ins">
+              <div class="slider-logo">
+                <figure><img src="./images/lg1.png" alt="Recommended Brands"></figure>
+                <figure><img src="./images/lg2.png" alt="Recommended Brands"></figure>
+                <figure><img src="./images/lg3.png" alt="Recommended Brands"></figure>
+                <figure><img src="./images/lg4.png" alt="Recommended Brands"></figure>
+                <figure><img src="./images/lg4.png" alt="Recommended Brands"></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- /END MAIN BODY -->
+    <!-- FOOTER -->
+    <section class="section-common">
+      <div class="container">
+        <div class="flexbox block3"><a class="block3--ins" href="#">
+            <figure><img src="./common_img/icon-cart.png" alt="Membership CardsDiscount for all members"></figure>
+            <p>Membership Cards<span>Discount for all members</span></p></a><a class="block3--ins" href="#">
+            <figure><img src="./common_img/icon-gold.png" alt="Rackets Sports"></figure>
+            <p>Rackets Sports<span>Over 40 fitness classes</span></p></a><a class="block3--ins" href="#">
+            <figure><img src="./common_img/icon-map.png" alt="Find a Club"></figure>
+            <p>Find a Club<span>at your preferred location</span></p></a></div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="flexbox block4">
+            <div class="block4--ins">
+              <h2 class="main-tit">Gym Base</h2>
+              <p>The longest running gym in Chicago. <br>Owned and operated by a personal trainer with over 25 years experience.</p>
+              <ul class="list-contact">
+                <li>
+                   <i class="fas fa-map-marker-alt"></i>2702 Memory Lane<br>Chicago, IL 60605</li>
+                <li>
+                  <i class="fas fa-phone-alt"></i>0999999991</li>
+                <li><i class="fas fa-envelope"></i><a class="linkpage" href="mailto:contact@gymbase.com">contact@gymbase.com</a></li>
+              </ul>
+            </div>
+            <div class="block4--ins">
+              <h2 class="main-tit">About </h2>
+              <ul class="list-style list-style2">
+                <li> <a class="linkpage" href="#">Home</a></li>
+                <li> <a class="linkpage" href="#">About</a></li>
+                <li> <a class="linkpage" href="#">Classes</a></li>
+                <li> <a class="linkpage" href="#">Membership</a></li>
+                <li><a class="linkpage" href="#">BRM Calc</a></li>
+                <li><a class="linkpage" href="#">Blog</a></li>
+                <li><a class="linkpage" href="#">Our Team</a></li>
+                <li><a class="linkpage" href="#">Timetable</a></li>
+                <li><a class="linkpage" href="#">Shop</a></li>
+                <li><a class="linkpage" href="#">Contact</a></li>
+                <li><a class="linkpage" href="#">BMI Calc</a></li>
+              </ul>
+            </div>
+            <div class="block4--ins">
+              <div class="flexbox">
+                <h2 class="main-tit">Latest Posts</h2>
+              </div>
+              <ul class="list-post">
+                <li><a href="#">
+                    <p>How to Build Discipline to Exercise</p><span>26 NOV, 2019</span></a></li>
+                <li><a href="#">
+                    <p>How to Get Organised for the Week Ahead</p><span>26 NOV, 2019</span></a></li>
+                <li><a href="#">
+                    <p>Common Workout Mistakes to Avoid</p><span>26 NOV, 2019</span></a></li>
+              </ul>
+            </div>
+            <div class="block4--ins calendar">
+              <div class="flexbox">
+                <h2 class="main-tit">Opening Hours</h2>
+                <div class="btn-group">
+                  <div class="btn prev disable"><span></span></div>
+                  <div class="btn next"><span></span></div>
+                </div>
+              </div>
+              <div class="list-hours">
+                <dl>
+                  <dt>Monday</dt>
+                  <dd>09:00 pm - 10:00 pm</dd>
+                </dl>
+                <dl>
+                  <dt>Tuesday</dt>
+                  <dd>08:00 pm - 10:00 pm</dd>
+                </dl>
+                <dl>
+                  <dt>Wednesday</dt>
+                  <dd>08:00 pm - 10:00 pm</dd>
+                </dl>
+                <dl>
+                  <dt>Thursday</dt>
+                  <dd>08:00 pm - 10:00 pm</dd>
+                </dl>
+                <dl>
+                  <dt>Friday</dt>
+                  <dd>08:00 am - 12:00 pm</dd>
+                </dl>
+                <dl>
+                  <dt>Saturday</dt>
+                  <dd>08:00 am - 06:00 pm</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="flexbox">
+            <p>© Copyright - GymBase Theme by <a class="linkpage" href="#">ThuyTran</a></p>
+            <ul>
+              <li><a class="linkpage" href="#">Privacy</a></li>
+              <li><a class="linkpage" href="#">Terms</a></li>
+              <li><a class="linkpage" href="#">Sitemap</a></li>
+              <li><a class="linkpage" href="#">
+                   <i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="linkpage" href="#">
+                   <i class="fab fa-skype"></i></a></li>
+              <li><a class="linkpage" href="#">
+                   <i class="fab fa-pinterest-p"></i>  </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="backtop">
+        <div class="backtop-icon"><a class="lh00" href="javascript:void(0)"><img src="./common_img/backtop.svg" alt="PAGE UP"></a></div>
+      </div>
+    </footer>
+    <!-- /END FOOTER -->
+    <!-- SCRIPT -->
+    <script src="./js/common.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $('.carousel-slider').owlCarousel({
+        loop: true,
+        navigation: true,
+        nav: true,
+        navText: ['', ''],
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 100,
+        responsiveClass: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        items: 1,
+        dots: true,
+      });
+    </script>
+    <script src="./js/slick.min.js"></script>
+    <script>
+      $('.slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [{
+          breakpoint: 960,
+          settings: {
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 3
+          }
+        }, {
+          breakpoint: 769,
+          settings: {
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 2,
+          }
+        }]
+      });
+      $('.slider-pt').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        arrows: false,
+        responsive: [{
+          breakpoint: 960,
+          settings: {
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 1
+          }
+        }, {
+          breakpoint: 769,
+          settings: {
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 1,
+          }
+        }]
+      });
+      $('.slider-logo').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [{
+          breakpoint: 960,
+          settings: {
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 769,
+          settings: {
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 3,
+          }
+        }]
+      });
+    </script>
+    <!-- Structured data settings -->
+    <!-- /END SCRIPT -->
+  </body>
+</html>
